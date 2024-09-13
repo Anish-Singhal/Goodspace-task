@@ -4,7 +4,7 @@ import icon1 from "../assets/icon1.png"
 
 export default function FeatureSection() {
   return (
-    <div>
+    <div className='feature-section'>
       <h3 className='feature-heading'>Features that suit your needs</h3>
       <div className='flex-box'>
         <div className='flex-item'>

@@ -37,7 +37,7 @@
     margin: 0px;
     color: var(--600, #475569);
 }
-p{
+.flex-item p{
     color: var(--500, #64748B);
     width: 24vw;
 }
