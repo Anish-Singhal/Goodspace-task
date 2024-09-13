@@ -1,45 +1,28 @@
 .navbar{
     display: flex;
-    /* width: Fixed (1,366px)px; */
-    height: Hug (68px)px;
-    padding: 12px 120px 12px 120px;
-    gap: 0px;
+    padding: 2vh 8vw 1.5vh 8vw;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     justify-content: space-between;
-    opacity: 0px;
 }
 
 .navbar-content{
     display: flex;
-    width: Hug (540px)px;
-    height: Hug (44px)px;
-    gap: 16px;
-    opacity: 0px;
 }
 
 .items{
-    width: Hug (82px)px;
-    height: Hug (44px)px;
-    padding: 12px 20px 12px 20px;
-    gap: 10px;
-    opacity: 0px;
+    padding: 1.5vh 2vw 1.5vh 2vw;
+    gap: 2vw;
 }
 
-.navbar-image{
-    width: Hug (168px)px;
-    height: Hug (44px)px;
-    padding: 10px 8px 10px 0px;
-    gap: 10px;
-    opacity: 0px;
+.img{
+    padding: 1.5vh 0px 0px 0px;
 }
 
 .button{
-    width: Hug (113px)px;
-    height: Hug (44px)px;
-    padding: 12px 20px 12px 20px;
-    gap: 10px;
-    border-radius: 4px;
+    height: 4vh;
+    padding: 1.5vh 2vw 1.5vh 2vw;
+    gap: 2vw;
     color: white;
-    opacity: 0px;
+    border-radius: 4px;
     background: linear-gradient(93.69deg, #2D56EC -14.13%, #1AACEA 120.91%);
 }

@@ -5,7 +5,9 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className='navbar'>
-      <img src={logo} alt="expense logo" className='navbar-image'></img>
+      <div className='img'>
+        <img src={logo} alt="expense logo" className='navbar-image'></img>
+      </div>
       <div className='navbar-content'>
         <div className='items'>Blogs</div>
         <div className='items'>Features</div>
