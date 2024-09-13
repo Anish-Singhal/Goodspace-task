@@ -1,6 +1,6 @@
 .line-1{
     width: 70vw;
-    background: linear-gradient(90.16deg, #2D56EC 0.21%, #1AACEA 100.08%);
+    background: linear-gradient(90.16deg, #2D56EC, #1AACEA);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: Inter;
