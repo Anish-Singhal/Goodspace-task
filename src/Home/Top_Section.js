@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Top_Section.css"
+import image from "../assets/hotjar_logo.png";
 
 export default function TopSection() {
   return (
@@ -21,6 +22,14 @@ export default function TopSection() {
       </div>
       <div className='hotjar-container'>
         <div className='hotjar-text'>USED BY OVER 50 ENTERPRISES</div>
+        <div className='hotjar-img-div'>
+          <img src={image} alt="hotjar"></img>
+          <img src={image} alt="hotjar"></img>
+          <img src={image} alt="hotjar"></img>
+          <img src={image} alt="hotjar"></img>
+          <img src={image} alt="hotjar"></img>
+          <img src={image} alt="hotjar"></img>
+        </div>
       </div>
     </div>
   )

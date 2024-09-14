@@ -86,3 +86,8 @@
     letter-spacing: 0.24em;
     text-align:center;
 }
+.hotjar-img-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
