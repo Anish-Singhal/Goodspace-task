@@ -25,7 +25,7 @@
     object-fit: contain;
 }
 .division-line{
-    border: 2px solid var(--100, #F1F5F9);
+    border: 2px solid var(--300, #CBD5E1);
     margin: 5vh 0vw 5vh 2vw;
 }
 

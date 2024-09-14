@@ -8,7 +8,7 @@
     text-align: center;
     background: linear-gradient(90.16deg, #355DED, #6F33F0, #2D56EC, #1AACEA);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .flex-box{
@@ -55,7 +55,7 @@
     height: 5vh;
     border-radius: 2px;
     transform: rotate(45deg);
-    background: #365EEE33;
+    background: #365EEE;
 }
 
 .coming_soon{

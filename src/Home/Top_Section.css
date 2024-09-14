@@ -2,7 +2,7 @@
     width: 70vw;
     background: linear-gradient(90.16deg, #2D56EC, #1AACEA);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
     font-family: Inter;
     font-size: 2rem;
     margin: auto;
@@ -30,6 +30,7 @@
     display: flex;
     gap: 1vw;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .box1{
     width: 10vw;

@@ -9,7 +9,7 @@
     text-align: center;
     background: linear-gradient(90.16deg, #355DED, #6F33F0, #2D56EC, #1AACEA);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .flex-box2{
@@ -18,8 +18,8 @@
     justify-content: space-around;
     width: 85%;
     margin: auto;
-    /* padding-left: 3vw; */
     padding-top: 8vh;
+    position: relative;
 }
 
 .flex-item2{
@@ -50,7 +50,7 @@
 .integration-item-1{
     padding: 2vw 0px 2vw 1vw;
     border-radius: 1.2vw;
-    border: 1px solid;
+    border: 2px solid #ffa50050;
     background: var(--50, #F8FAFC);
     background-image: radial-gradient(circle at 80% 80%,  #FCB42830 10%,#F8FAFC 90%);
 }
@@ -58,14 +58,14 @@
 .integration-item-2{
     padding: 2vw 0px 2vw 1vw;
     border-radius: 1.2vw;
-    border: 1px solid;
+    border: 2px solid lightgreen;
     background: var(--50, #F8FAFC);
     background-image: radial-gradient(circle at 80% 80%,  #6CB82030 10%,#F8FAFC 90%);
 }
 .integration-item-3{
     padding: 2vw 0px 2vw 1vw;
     border-radius: 1.2vw;
-    border: 1px solid;
+    border: 2px solid lightblue;
     background: var(--50, #F8FAFC);
     background-image: radial-gradient(circle at 80% 80%,  #365EEE30 10%,#F8FAFC 90%);
 }
@@ -83,8 +83,7 @@
 /* For the connection line image */
 .line-container {
     position: absolute;
-    /* top: 120px; Adjust to position the line */
-    transform: translateY(-9vh);
+    top: -9vh;
     left: 0;
     width: 100%;
     display: flex;

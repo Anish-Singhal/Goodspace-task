@@ -10,12 +10,12 @@ export default function IntegrationSection() {
     <div className='integration-section'>
       <h3 className='integration-heading'>Integrations</h3>
 
-      {/* Connection Line Image */}
-      <div className="line-container">
-        <img src={vector2} alt="connection-line" className="connection-line" />
-      </div>
-      
       <div className='flex-box2'>
+        {/* Connection Line Image */}
+        <div className="line-container">
+          <img src={vector2} alt="connection-line" className="connection-line" />
+        </div>
+        
         <div className='flex-item2 integration-item-1'>
             <div className='integration-div'>
                 <img src={system1} alt="logo"></img>
