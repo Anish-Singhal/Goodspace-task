@@ -1,3 +1,7 @@
+.feature-section{
+    padding-bottom: 10vh;
+}
+
 .feature-heading{
     font-family: Extatica;
     font-size: 2rem;
@@ -27,11 +31,14 @@
     gap: 1vw;
     align-items: center;
 }
-.feature img{
+.feature .icon-div{
     background-color: #2D56EC;
-    padding: 1.7vh 0.6vh 1.5vh 0.6vh;
-    gap: 10px;
+    width: 5vh;
+    height: 5vh;
     border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .feature h3{
     margin: 0px;
@@ -44,8 +51,8 @@
 .rectangle{
     z-index: -1;
     position: absolute;
-    width: 5.1vh;
-    height: 5.1vh;
+    width: 5vh;
+    height: 5vh;
     border-radius: 2px;
     transform: rotate(45deg);
     background: #365EEE33;

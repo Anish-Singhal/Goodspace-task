@@ -1,6 +1,14 @@
 import React from 'react'
 import "./Feature-section.css"
-import icon1 from "../assets/icon1.png"
+import icon1 from "../assets/Icon1.png"
+import icon2 from "../assets/Icon2.png"
+import icon3 from "../assets/Icon3.png"
+import icon4 from "../assets/Icon4.png"
+import icon5 from "../assets/Icon5.png"
+import icon6 from "../assets/Icon6.png"
+import icon7 from "../assets/Icon7.png"
+import icon8 from "../assets/Icon8.png"
+import icon9 from "../assets/Icon9.png"
 
 export default function FeatureSection() {
   return (
@@ -10,7 +18,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon1} alt="logo"></img></div>
                 <h3>Setup Employee Groups</h3>
             </div>
             <p>Use any parameter to setup distinct employee groups to implement policies</p>
@@ -18,7 +26,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon2} alt="logo"></img></div>
                 <h3>The Definitive Rule Engine</h3>
             </div>
             <p>Configure ANY policy - and if you can't configure it, we promise to work on it for free</p>
@@ -26,7 +34,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon3} alt="logo"></img></div>
                 <h3>Customized Reports</h3>
             </div>
             <p>Setup the reports that you want using our seamless reporting engine.</p>
@@ -34,7 +42,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon4} alt="logo"></img></div>
                 <h3>Superior Employee Experience</h3>
             </div>
             <p>Manage all expenses and travel requests easily. Empower your employees with personalized reports.</p>
@@ -42,7 +50,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon5} alt="logo"></img></div>
                 <h3>Easy Integrations</h3>
             </div>
             <p>Integrate with your upstream, HRMS or your downstream finance system to seamlessly deliver value through our Open APIs.</p>
@@ -50,7 +58,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon6} alt="logo"></img></div>
                 <h3>Configurable Workflows</h3>
             </div>
             <p>Configure approvals or rejections. Escalations and reports. At will. Setup new groups.</p>
@@ -58,7 +66,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon7} alt="logo"></img></div>
                 <h3>Scan any Bill</h3>
             </div>
             <p>The world's best OCR system backs up this product. All data goes in. 99% success.</p>
@@ -66,7 +74,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon8} alt="logo"></img></div>
                 <h3>AI-Based Concierge</h3>
                 <div className='coming_soon'>Coming soon</div>
             </div>
@@ -75,7 +83,7 @@ export default function FeatureSection() {
         <div className='flex-item'>
             <div className='feature'>
                 <div className='rectangle'></div>
-                <img src={icon1} alt="logo"></img>
+                <div className='icon-div'><img src={icon9} alt="logo"></img></div>
                 <h3>AI-Assisted Trip Planning</h3>
                 <div className='coming_soon'>Coming soon</div>
             </div>
