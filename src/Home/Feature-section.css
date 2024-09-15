@@ -9,8 +9,9 @@
     background: linear-gradient(90.16deg, #355DED, #6F33F0, #2D56EC, #1AACEA);
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    width: 80%;
+    width: 90%;
     margin: auto;
+    padding-bottom: 7vh;
 }
 
 .flex-box{
