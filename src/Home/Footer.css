@@ -7,9 +7,12 @@
     display: flex;
     justify-content: flex-start;
     padding-left: 2vw;
+    flex-wrap: wrap;
 }
 .footer-logo{
    width: 50%;
+   min-width: 350px;
+   padding-bottom: 5vh;
 }
 .box3{
     display: flex;
@@ -33,20 +36,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .footer-content{
     display: flex;
 }
 .footer-items{
     font-family: Inter;
-    font-size: 3vh;
+    font-size: 1.2rem;
     color: var(--500, #64748B);
     padding: 0vh 2vw 0vh 2vw;
     gap: 2vw;
 }
 .copyright2{
     font-family: Assistant;
-    font-size: 3vh;
+    font-size: 1.2rem;
     margin: 0px;
     color: #0A142F;
+    white-space: nowrap;
+    padding-left: 2vw;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../assets/Expense.png"
+import btn from "../assets/Dropdown_btn.png"
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -15,6 +16,7 @@ export default function Navbar() {
         <div className='items'>Integrations</div>
         <div className='button'>Start Trail</div>
       </div>
+      <img src={btn} alt="dropdown" className='dropdown-btn'></img>
     </div>
   )
 }

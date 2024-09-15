@@ -1,5 +1,5 @@
 .main-line-1{
-    width: 70vw;
+    width: 70%;
     background: linear-gradient(90.16deg, #2D56EC, #1AACEA);
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -11,7 +11,7 @@
 }
 
 .main-line-2{
-    width: 70vw;
+    width: 70%;
     font-family: Extatica;
     font-size: 3rem;
     margin: 1vh auto;
@@ -19,7 +19,7 @@
 }
 
 .main-line-3{
-    width: 50vw;
+    width: 50%;
     font-family: Inter;
     font-size: 1.2rem;
     margin: 6vh auto;
@@ -34,6 +34,8 @@
 }
 .box1{
     width: 10vw;
+    min-height: 25px;
+    min-width: 150px;
     border-radius: 4px;
     text-align: left;
     padding: 1vh 1vw;
@@ -43,6 +45,8 @@
 
 .box2{
     width: 20vw;
+    min-height: 25px;
+    min-width: 300px;
     border-radius: 4px;
     text-align: left;
     padding: 1vh 1vw;
@@ -50,12 +54,13 @@
     border: 1px solid var(--300, #CBD5E1);
 }
 .button2{
-    height: 4vh;
-    padding: 1vh 2vw 1vh 2vw;
-    gap: 2vw;
+    min-height: 25px;
+    padding: 1vh 2vw;
+    min-width: 100px;
     color: white;
     border-radius: 4px;
     background: linear-gradient(93.69deg, #2D56EC -14.13%, #1AACEA 120.91%);
+    text-align: center;
 }
 
 .free-trail{
@@ -77,10 +82,10 @@
 .hotjar-container{
     width: 70%;
     margin: 5vh auto 15vh auto;
-    padding: 32px 64px 40px 64px;
-    gap: 36px;
+    padding: 32px 5vw 40px 5vw;
     border-radius: 14px;
     border: 1px solid var(--300, #CBD5E1);
+    background: white;
 }
 .hotjar-text{
     font-family: Inter;
@@ -91,4 +96,46 @@
     display: flex;
     justify-content: space-between;
     padding-top: 5vh;
+    overflow: hidden;
+    gap: 36px;
+}
+
+@media only screen and (max-width:800px){
+    .main-line-1{
+        width: 90%;
+    }
+    .main-line-2{
+        width: 90%;
+    }
+    .main-line-3{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:950px){
+    .box1{
+        width: 50%;
+    }
+    .box2{
+        width: 50%;
+    }
+    .button2{
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .box1{
+        width: 80%;
+    }
+    .box2{
+        width:80%;
+    }
+    .button2{
+        width: 79%;
+    }
+    .hotjar-container{
+        width: 89%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }

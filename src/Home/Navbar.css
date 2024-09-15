@@ -20,9 +20,25 @@
 
 .button{
     height: 4vh;
+    min-height: 25px;
     padding: 1.5vh 2vw 1.5vh 2vw;
     gap: 2vw;
     color: white;
     border-radius: 4px;
     background: linear-gradient(93.69deg, #2D56EC -14.13%, #1AACEA 120.91%);
+}
+
+.dropdown-btn{
+    display: none;
+    padding: 1vh;
+    border: 2px solid rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width:800px){
+    .navbar-content{
+        display: none;
+    }
+    .dropdown-btn{
+        display: inline;
+    }
 }

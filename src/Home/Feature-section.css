@@ -9,32 +9,37 @@
     background: linear-gradient(90.16deg, #355DED, #6F33F0, #2D56EC, #1AACEA);
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    width: 80%;
+    margin: auto;
 }
 
 .flex-box{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding-left: 5vw;
 }
 
 .flex-item{
-    margin: 4vh 0vw;
+    margin: 4vh 5px;
     text-align: left;
     width: 27.5vw;
+    min-width: 310px;
 }
 
 .feature{
     display: flex;
-    gap: 1vw;
+    gap: 15px;
     align-items: center;
 }
 .feature .icon-div{
     background-color: #2D56EC;
-    width: 5vh;
     height: 5vh;
+    width: 5vh;
+    min-width: 30px;
+    min-height: 30px;
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -43,16 +48,20 @@
 .feature h3{
     margin: 0px;
     color: var(--600, #475569);
+    white-space: nowrap;
 }
 .flex-item p{
     color: var(--500, #64748B);
     width: 24vw;
+    min-width: 260px;
 }
 .rectangle{
     z-index: -1;
     position: absolute;
     width: 5vh;
     height: 5vh;
+    min-width: 30px;
+    min-height: 30px;
     border-radius: 2px;
     transform: rotate(45deg);
     background: #365EEE;
@@ -60,7 +69,7 @@
 
 .coming_soon{
     font-family: Inter;
-    font-size: 2.5vh;
+    font-size: 1rem;
     text-align: left;
     color: #EBA31C;
     background: #EBA31C33;
